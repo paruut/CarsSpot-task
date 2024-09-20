@@ -30,7 +30,10 @@ git clone https://github.com/your-username/cars-spot.git
 cd cars-spot
 ```
 
-3. Otwórz plik index.html w swojej przeglądarce.
+3. Uruchom
+```bash
+npm run dev
+```
 
 
 
