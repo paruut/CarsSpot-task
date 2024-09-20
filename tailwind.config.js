@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./index.html"],
+  content: ["./index.html", "./src/**/*.{js}"],
   theme: {
     extend: {
       colors: {
@@ -15,6 +15,14 @@ module.exports = {
         'robotoFlex': ['Roboto Flex', 'sans-serif'],
         'robotoCondensed': ['Roboto Condensed', 'sans-serif'],
         'bebasNeue': ['Bebas Neue', 'sans-serif'],
+      },
+      screens: {
+        'xs': '480px',
+        'sm': '640px',
+        'md': '768px',
+        'lg': '1024px',
+        'xl': '1280px',
+        '2xl': '1536px',
       },
     },
   },
